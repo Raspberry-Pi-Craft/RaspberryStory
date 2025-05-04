@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.alexander1248.raspberry_story.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BannerDuplicateRecipeMixin",
+    "BannerItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
